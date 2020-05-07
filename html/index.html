@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="cont" id='main'>
+        <div class='top-text' id='top-text'>ZONE HEALTH BAR</div>
+        <div class="bar-info">
+            <div class="hp-bar">
+                <div class='actual-hp-bar'></div>
+            </div>
+            <span id='percent'>65.2%</span>
+        </div>
+        <div class="info">
+            <p id='owner'>Owner: Ballas</p>
+            <p id='attacker'>Attacker: Famillies</p>
+            <p id='dmg'>Damage: +2.4/s</p>
+        </div>
+    </div>
+    <script>
+        $('#main').hide();
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
